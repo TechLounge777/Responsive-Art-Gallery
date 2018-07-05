@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Pacifico');
+
+body {
+	margin: 0;
+	padding: 0;
+	background: #000;
+}
+
+#photo-gallery {
+	font-family: 'Pacifico', cursive;
+	font-weight: 400;
+	color: #fff;
+	font-size: 52px;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.diamond-grid {
+	width: 70%;
+	margin: 50px auto 0;
+}
+
+.item {
+	width: 220px;
+	height: 220px;
+	background: #fff;
+	opacity: 0.6;
+	transition: 0.5s;
+}
+
+.item:hover {
+	opacity: 1;
+}
+
+.item img {
+	position: absolute;
+	top: 50%;
+	left: 0;
+	transform: translateY(-50%) scale(1.5);
+	width: 100%;
+}
+
+@media (max-width:  767px) {
+	.diamond-grid {
+		width: 100%;
+		margin: 0 auto;
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
